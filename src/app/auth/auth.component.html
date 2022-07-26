@@ -1,0 +1,19 @@
+<html>
+    <div class="con">
+        <form (submit)="userRegisterClick()">
+            <div>
+                <input class="b" [(ngModel)]="name" name="name" type="text" placeholder="Your name*">
+            </div>
+            <div>
+                <input class="b" [(ngModel)]="login" name="login" type="text" placeholder="Your login*">
+            </div>
+            <div>
+                <input class="b" [(ngModel)]="email" name="email" type="text" placeholder="Your email*">
+            </div>
+            <div>
+                <input class="b" [(ngModel)]="password" type="text" name="password" placeholder="Enter your password*">
+            </div>
+            <button (click)="goHome()" name="email" type="submit" class="g">Login</button>
+        </form>
+    </div>
+</html>

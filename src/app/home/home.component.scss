@@ -1,0 +1,45 @@
+.container{
+    width: 300px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.4); 
+    height: 200px;
+    margin-left: 10px;
+    margin-top: 20px;
+    font-family:Trebuchet MS, sans-serif;
+    font-size: 10px;
+    margin-bottom: 10px;
+    margin-left: 50px;
+    p{
+        margin-left: 8px;
+        margin-top: 10px;
+        color: gray;
+    }
+    h1{
+        margin-left: 8px;
+        margin-top: 8px;
+        margin-right: 8px;
+        font-size: 15px;
+    }
+    .cl{
+        color: black;
+    }
+    .c{
+        color: black;
+        margin-top: -1px;
+    }
+}
+
+.dr{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+button{
+    border-radius: 8%;
+    color: white;
+    background-color: rgb(47, 55, 106);
+    border: none;
+    width: 70px;
+    height: 25px;
+    margin-top: 8px;
+    margin-left: 8px;
+}

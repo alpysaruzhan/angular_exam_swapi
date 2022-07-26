@@ -1,0 +1,88 @@
+<html>
+  <div class="container">
+    <div class="h">
+      <h1>Введите id фильма для дополнительной информации</h1>
+      <input class="d" placeholder="Search film..." [(ngModel)]="episode_id" type="number">
+      <button (click)="search()">Results</button>
+    </div>
+  </div>
+  <div *ngIf="response">
+    <div class="film">
+      <h1>{{response.title}}</h1>
+      <p><b>Release date:</b>{{response.release_date}}</p>
+      <p class="e">{{response.opening_crawl}}</p>
+      <hr>
+    </div>
+    <p style="color: rgb(18, 38, 167);">List of Starships</p>
+    <div class="t">
+      <div>
+        <p style="color: rgb(47, 55, 106);">Name</p>
+        <p *ngFor="let starship of starships">{{starship.name}}</p>
+      </div>
+      <div>
+        <p style="color: rgb(47, 55, 106);">Starship_class</p>
+        <p *ngFor="let starship of starships">{{starship.starship_class}}</p>
+      </div>
+      <div>
+        <p style="color: rgb(47, 55, 106);">Passengers</p>
+        <p  *ngFor="let starship of starships">{{starship.passengers}}</p>
+      </div>
+      <div>
+        <p style="color: rgb(47, 55, 106);">Length</p>
+        <p *ngFor="let starship of starships">{{starship.length}}</p>
+      </div>
+      <div>
+        <p style="color: rgb(47, 55, 106);">Created</p>
+        <p  *ngFor="let starship of starships">{{starship.created}}</p>
+      </div>
+    </div>
+    <hr>
+    <div>
+      <p style="color: rgb(18, 38, 167);">List of People</p>
+      <div class="t">
+        <div>
+          <p style="color: rgb(47, 55, 106);">Name</p>
+          <p *ngFor="let people of peoples">{{people.name}} </p>
+        </div>
+        <div>
+          <p style="color: rgb(47, 55, 106);">Height</p>
+          <p *ngFor="let people of peoples">{{people.height}} </p>
+        </div>
+        <div>
+          <p style="color: rgb(47, 55, 106);">Mass</p>
+          <p *ngFor="let people of peoples">{{people.mass}} </p></div>
+        <div>
+          <p style="color: rgb(47, 55, 106);">Gender</p>
+          <p *ngFor="let people of peoples">{{people.gender}} </p></div>
+        <div>
+          <p style="color: rgb(47, 55, 106);">Created</p>
+          <p *ngFor="let people of peoples">{{people.created}} </p>
+        </div>
+      </div>
+      <hr>
+      <p style="color: rgb(18, 38, 167);">List of Planets</p>
+      <div class="t">
+    <div>
+          <p style="color: rgb(47, 55, 106);">Name</p>
+            <p *ngFor="let planet of planets">{{planet.name}} </p></div>
+        <div>
+          <p style="color: rgb(47, 55, 106);">Climate</p>
+            <p *ngFor="let planet of planets">{{planet.climate}} </p></div>
+        <div>
+          <p style="color: rgb(47, 55, 106);">Gravity</p>
+            <p *ngFor="let planet of planets">{{planet.gravity}} </p>
+        </div>
+        <div>
+          <p style="color: rgb(47, 55, 106);">Population</p>
+            <p *ngFor="let planet of planets">{{planet.population}} </p>
+        </div>
+        <div>
+          <p style="color: rgb(47, 55, 106);">Created</p>
+            <p *ngFor="let planet of planets">{{planet.created}} </p>
+        </div>
+        </div>
+    </div>
+    
+  </div>
+  
+</html>

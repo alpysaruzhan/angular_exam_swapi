@@ -1,0 +1,36 @@
+ul{
+    display: flex;
+    text-decoration: none;
+}
+li{
+    font-size: 20px;
+    list-style-type: none;
+    display: flex;
+    margin-left: 15px;
+
+}
+nav{
+    justify-content: center;
+    padding: 20px ; 
+    background-color: rgb(47, 55, 106);
+    display: flex;
+    color: white;
+  }
+
+.a{
+    margin-right: 940px;
+    justify-content: start;
+    color: white;
+    text-decoration: none;
+    font-family:Trebuchet MS, sans-serif;
+}
+
+.b{
+    border-radius: 5%;
+    box-sizing: border-box;
+    color: rgb(47, 55, 106);
+    text-decoration: none;
+    font-family:Trebuchet MS, sans-serif;
+    background-color: white;
+}
+

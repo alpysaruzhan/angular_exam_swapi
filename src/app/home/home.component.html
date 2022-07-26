@@ -1,0 +1,12 @@
+<html>
+    <div class="dr">
+        <div *ngFor="let film of films" class="container">
+            <h1>{{film.title}}</h1>
+            <p>{{film.opening_crawl}}</p>
+            <p class="cl"><b>Producer: </b>{{film.producer}}</p>
+            <p class="c"><b>Realease date: </b>{{film.release_date}}</p>
+            <button (click)="goFilm()">About film</button>
+        </div>
+        
+    </div>
+</html>

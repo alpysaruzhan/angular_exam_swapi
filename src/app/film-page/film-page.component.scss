@@ -1,0 +1,68 @@
+h1{
+    font-size: 20px;
+    font-family:Trebuchet MS, sans-serif;
+    margin-top: 10px;
+    margin-left: 15px;
+}
+p{
+    margin-left: 15px;
+    font-size: 13px;
+    font-family:Trebuchet MS, sans-serif;
+}
+b{
+    color: rgb(18, 38, 167);
+    
+}
+
+.e{
+    margin-top: 15px;
+
+}
+hr{
+    margin-top: 10px;
+    color: rgb(18, 38, 167);
+}
+
+table.iksweb{
+    box-shadow: 0 0 10px rgba(0,0,0,0.4); 
+    font-family:Trebuchet MS, sans-serif;
+    margin-left: 120px;
+    width: 1100px;
+    margin-top: 20px;
+	border-collapse:collapse;
+	border-spacing:0;
+	height: auto;
+}
+
+table.iksweb td,table.iksweb th {
+	padding: 3px;
+	width: 30px;
+	height: 35px;
+}
+table.iksweb th {
+	background: #347c99; 
+	color: #fff; 
+	font-weight: normal;
+}
+
+.d{
+    height: 30px;
+    margin-left: 15px;
+    margin-top: 10px;
+    border: none;
+    box-shadow: 0 0 10px rgba(0,0,0,0.4); 
+}
+button{
+    height: 30px;
+    border: none;
+    color: white;
+    background-color: rgb(47, 55, 106);
+    box-shadow: 0 0 10px rgba(0,0,0,0.4); 
+}
+
+.t{
+    margin-top: 10px;
+    display: flex;
+    width: 1000px;
+    height: 250px;
+}
